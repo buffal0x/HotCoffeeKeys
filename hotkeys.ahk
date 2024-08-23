@@ -1,4 +1,4 @@
-﻿; AutoHotKey Script Written by Buffal0x
+; AutoHotKey Script Written by Buffal0x
 ; For more information check out AHK's website: https://www.autohotkey.com/
 ; They really have a lot of tutorials and making AHK easy to understand. 
 
@@ -36,7 +36,7 @@ Return
 
 ; CTRL + Space acts if I press Enter. Depending on where my hands and fingers are while coding, having a third Enter button isn't so dumb after all.
 #IfWinActive ahk_exe Code.exe
-^Space::
++LAlt::
 Send {Enter}
 #IfWinActive
 Return
